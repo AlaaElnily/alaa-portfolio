@@ -6,10 +6,12 @@ import Experience from "@/app/components/Experience";
 import Contact from "@/app/components/Contact";
 import Footer from "@/app/components/Footer";
 import FadeInObserver from "@/app/components/FadeInObserver";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default function Home() {
   return (
     <>
+      <SpeedInsights />
       <FadeInObserver />
       <Navbar />
       <main>
