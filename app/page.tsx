@@ -7,6 +7,7 @@ import Contact from "@/app/components/Contact";
 import Footer from "@/app/components/Footer";
 import FadeInObserver from "@/app/components/FadeInObserver";
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/next';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <Analytics />\
     </>
   );
 }
