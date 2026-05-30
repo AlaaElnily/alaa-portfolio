@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-light font-dm;
+  }
+}
+
+@layer utilities {
+  .section-label {
+    @apply text-xs tracking-widest uppercase text-accent mb-4 flex items-center gap-2;
+  }
+  .section-label::after {
+    content: '';
+    @apply flex-none w-10 h-px bg-accent;
+  }
+  .project-row {
+    @apply grid items-center gap-8 py-5 border-b border-border transition-all duration-200;
+    grid-template-columns: 3fr 1.5fr auto;
+  }
+  .project-row:first-child {
+    @apply border-t;
+  }
+  .project-row:hover {
+    @apply bg-surface -mx-4 px-4;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes pulse2 {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+.dot-pulse {
+  animation: pulse2 2s infinite;
+}
