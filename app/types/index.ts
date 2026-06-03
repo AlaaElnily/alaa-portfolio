@@ -21,6 +21,14 @@ export interface Education {
   note: string | null;
 }
 
+export interface Certification {
+  title: string;
+  issuer: string;
+  date: string | null;
+  url: string | null;
+  credentialId: string | null;
+}
+
 export interface Skill {
   label: string;
   hot?: boolean;

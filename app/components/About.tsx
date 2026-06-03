@@ -2,15 +2,15 @@ import { skills } from "@/app/data";
 
 export default function About() {
   return (
-    <section id="about" className="py-28 px-16 max-w-[1100px] mx-auto fade-in">
+    <section id="about" className="py-20 md:py-28 px-6 md:px-16 max-w-[1100px] mx-auto fade-in">
       <p className="section-label">About me</p>
       <h2 className="font-syne font-black tracking-tight mb-4"
         style={{ fontSize: "clamp(2rem, 3.5vw, 2.8rem)" }}>
         Passionate about building things that matter.
       </h2>
-      <p className="text-muted mb-14 max-w-xl">I love what I do — and I think that shows in the work.</p>
+      <p className="text-muted mb-10 md:mb-14 max-w-xl">I love what I do — and I think that shows in the work.</p>
 
-      <div className="grid grid-cols-2 gap-16 items-start">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-start">
         {/* Left: text + skills */}
         <div>
           <p className="text-body leading-loose mb-5">
@@ -59,7 +59,7 @@ export default function About() {
         </div>
 
         {/* Right: info cards */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-3 md:gap-4">
           {[
             { label: "Email", value: "alaa.s.elnily@gmail.com", href: "mailto:alaa.s.elnily@gmail.com", isAccent: false },
             { label: "Phone", value: "+20 (0) 106 451 4666", href: "tel:+201064514666", isAccent: false },
@@ -68,10 +68,10 @@ export default function About() {
             { label: "Languages", value: "Arabic (Native) · English (Fluent) · French (Basic) · Dutch (Basic)", href: null, isAccent: false },
             { label: "Status", value: "Open to new roles ✦", href: null, isAccent: true },
           ].map((card) => (
-            <div key={card.label} className="bg-surface border border-border rounded-lg px-6 py-5">
+            <div key={card.label} className="bg-surface border border-border rounded-lg px-5 py-4">
               <div className="text-xs uppercase tracking-widest text-muted mb-1">{card.label}</div>
               {card.href ? (
-                <a href={card.href} className="font-syne font-semibold text-accent hover:underline text-sm">
+                <a href={card.href} className="font-syne font-semibold text-accent hover:underline text-sm break-all">
                   {card.value}
                 </a>
               ) : (
