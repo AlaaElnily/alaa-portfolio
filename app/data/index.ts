@@ -157,13 +157,98 @@ export const education = [
   },
 ];
 
+export const personalVideos = [
+  {
+    id: "Sr2pQFYsPsI",
+    title: "Personal Project",
+    role: "Designed & Developed",
+    description: "A complete web project designed and built from scratch — UI design through to final code.",
+  },
+  {
+    id: "_jenBCE3H5U",
+    title: "Pharmacya",
+    role: "Designed & Developed",
+    description: "Pharmacy management system — designed the UI, built the database, and written all the code.",
+  },
+  {
+    id: "ul9TtszYUx8",
+    title: "Personal Project",
+    role: "Developed",
+    description: "A self-initiated development project built to explore and practice new frontend techniques.",
+  },
+  {
+    id: "bC-0sOtfdMI",
+    title: "UI Design",
+    role: "Designed on Adobe XD",
+    description: "A complete UI/UX design concept created in Adobe XD — showcasing design skills and visual thinking.",
+    isShort: true,
+  },
+];
+
 export const certifications = [
-  "Database Fundamentals — Mahara Tech",
-  "Problem Solving — Coach Academy",
-  "JavaScript — Mahara Tech",
-  "Web Development — Youth Empowerment Initiative",
-  "Photoshop — New Horizons",
-  "Illustrator — New Horizons",
+  {
+    title: "JavaScript (Intermediate) Certificate",
+    issuer: "HackerRank",
+    date: "Dec 2023",
+    url: "https://www.hackerrank.com/certificates/5e837d3de754",
+    credentialId: "5e837d3de754",
+  },
+  {
+    title: "JavaScript Certificate",
+    issuer: "HackerRank",
+    date: "Dec 2023",
+    url: "https://www.hackerrank.com/certificates/3bbf2cc66d6e",
+    credentialId: "3bbf2cc66d6e",
+  },
+  {
+    title: "CSS Certificate",
+    issuer: "HackerRank",
+    date: null,
+    url: "https://www.hackerrank.com/certificates/f8f2f2337747",
+    credentialId: "f8f2f2337747",
+  },
+  {
+    title: "Database Fundamentals",
+    issuer: "Mahara Tech",
+    date: null,
+    url: null,
+    credentialId: null,
+  },
+  {
+    title: "Problem Solving",
+    issuer: "Coach Academy",
+    date: null,
+    url: null,
+    credentialId: null,
+  },
+  {
+    title: "JavaScript",
+    issuer: "Mahara Tech",
+    date: null,
+    url: null,
+    credentialId: null,
+  },
+  {
+    title: "Web Development",
+    issuer: "Youth Empowerment Initiative",
+    date: null,
+    url: null,
+    credentialId: null,
+  },
+  {
+    title: "Photoshop",
+    issuer: "New Horizons",
+    date: null,
+    url: null,
+    credentialId: null,
+  },
+  {
+    title: "Illustrator",
+    issuer: "New Horizons",
+    date: null,
+    url: null,
+    credentialId: null,
+  },
 ];
 
 export const skills: Skill[] = [
