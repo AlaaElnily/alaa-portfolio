@@ -8,7 +8,7 @@ export default function About() {
         style={{ fontSize: "clamp(2rem, 3.5vw, 2.8rem)" }}>
         Passionate about building things that matter.
       </h2>
-      <p className="text-muted mb-10 md:mb-14 max-w-xl">I love what I do — and I think that shows in the work.</p>
+      <p className="text-muted mb-10 md:mb-14 max-w-xl">I love what I do - and I think that shows in the work.</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-start">
         {/* Left: text + skills */}
@@ -26,7 +26,7 @@ export default function About() {
             (ESOLEC&apos;20), published in IEEEXplore.
           </p>
           <p className="text-body leading-loose mb-8">
-            Based in Alexandria, Egypt — open to remote opportunities and relocating.
+            Based in Alexandria, Egypt - open to remote opportunities and relocating.
           </p>
 
           {/* Skills */}
@@ -63,7 +63,7 @@ export default function About() {
           {[
             { label: "Email", value: "alaa.s.elnily@gmail.com", href: "mailto:alaa.s.elnily@gmail.com", isAccent: false },
             { label: "Phone", value: "+20 (0) 106 451 4666", href: "tel:+201064514666", isAccent: false },
-            { label: "Location", value: "Alexandria, Egypt — Open to Remote & Relocation", href: null, isAccent: false },
+            { label: "Location", value: "Alexandria, Egypt - Open to Remote & Relocation", href: null, isAccent: false },
             { label: "Specialization", value: "React / Next.js Frontend", href: null, isAccent: false },
             { label: "Languages", value: "Arabic (Native) · English (Fluent) · French (Basic) · Dutch (Basic)", href: null, isAccent: false },
             { label: "Status", value: "Open to new roles ✦", href: null, isAccent: true },

@@ -15,13 +15,13 @@ const dm = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Alaa Elnily — Frontend Developer",
+  title: "Alaa Elnily - Frontend Developer",
   description:
     "Frontend Developer with 5+ years crafting high-performance web experiences for UAE governments, enterprises, and global events.",
   keywords: ["Frontend Developer", "React", "Next.js", "UAE", "Web Development"],
   authors: [{ name: "Alaa Elnily" }],
   openGraph: {
-    title: "Alaa Elnily — Frontend Developer",
+    title: "Alaa Elnily - Frontend Developer",
     description:
       "Frontend Developer with 5+ years crafting high-performance web experiences for UAE governments, enterprises, and global events.",
     type: "website",

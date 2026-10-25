@@ -1,4 +1,4 @@
-# Alaa Elnily — Portfolio
+# Alaa Elnily - Portfolio
 
 Personal portfolio website built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**.
 
@@ -44,10 +44,10 @@ app/
 ## Updating Content
 
 All portfolio content (projects, experience, skills) lives in `app/data/index.ts`.
-Edit that file to update anything — no need to touch the components.
+Edit that file to update anything - no need to touch the components.
 
 ## Deploy to Vercel
 
 1. Push this repo to GitHub
 2. Go to [vercel.com](https://vercel.com) → New Project → import your repo
-3. Click Deploy — done ✅
+3. Click Deploy - done ✅

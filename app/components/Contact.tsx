@@ -12,7 +12,7 @@ export default function Contact() {
           Let&apos;s build something great.
         </h2>
         <p className="text-muted mb-8 relative z-10 text-sm md:text-base">
-          I&apos;m currently open to new frontend roles — remote or on-site. Let&apos;s talk.
+          I&apos;m currently open to new frontend roles - remote or on-site. Let&apos;s talk.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center relative z-10">
           <a

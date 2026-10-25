@@ -9,7 +9,7 @@ export default function Projects() {
         Projects &amp; Clients.
       </h2>
       <p className="text-muted mb-10 md:mb-14 max-w-xl">
-        A selection of websites and applications I&apos;ve designed and developed — from national
+        A selection of websites and applications I&apos;ve designed and developed - from national
         government platforms to global conferences.
       </p>
 

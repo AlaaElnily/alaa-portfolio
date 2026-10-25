@@ -11,7 +11,7 @@ export default function PersonalWork() {
         Personal work.
       </h2>
       <p className="text-muted mb-10 md:mb-14 max-w-xl">
-        Projects I built on my own time — to learn, experiment, and push my skills further.
+        Projects I built on my own time - to learn, experiment, and push my skills further.
         Every one of these was designed and/or developed entirely by me.
       </p>
 
