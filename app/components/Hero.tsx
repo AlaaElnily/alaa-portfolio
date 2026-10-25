@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const stats = [
-  { num: "4+", label: "Years Experience" },
+  { num: "5+", label: "Years Experience" },
   { num: "15+", label: "Projects Delivered" },
   { num: "UAE+KSA", label: "Gov Clients" },
   { num: "COP28", label: "Global Scale" },

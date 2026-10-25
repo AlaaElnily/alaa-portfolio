@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 md:py-28 pb-10 md:pb-16 px-6 md:px-16 max-w-[1100px] mx-auto fade-in">
+    <section id="contact" className="py-10 md:py-14 pb-10 md:pb-16 px-6 md:px-16 max-w-[1100px] mx-auto fade-in">
       <div className="bg-surface border border-border rounded-xl p-8 md:p-16 text-center relative overflow-hidden">
         {/* Glow */}
         <div

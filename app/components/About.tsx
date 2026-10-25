@@ -2,7 +2,7 @@ import { skills } from "@/app/data";
 
 export default function About() {
   return (
-    <section id="about" className="py-20 md:py-28 px-6 md:px-16 max-w-[1100px] mx-auto fade-in">
+    <section id="about" className="py-10 md:py-14 px-6 md:px-16 max-w-[1100px] mx-auto fade-in">
       <p className="section-label">About me</p>
       <h2 className="font-syne font-black tracking-tight mb-4"
         style={{ fontSize: "clamp(2rem, 3.5vw, 2.8rem)" }}>
@@ -14,7 +14,7 @@ export default function About() {
         {/* Left: text + skills */}
         <div>
           <p className="text-body leading-loose mb-5">
-            With 4+ years of professional experience at Omnia FZ LLC (a Globant division), I&apos;ve
+            With 5+ years of professional experience at Omnia FZ LLC (a Globant division), I&apos;ve
             built high-impact websites for UAE and KSA government ministries, global enterprises,
             and international events like COP28. I specialize in React and Next.js, crafting fully
             responsive, performant, and multilingual interfaces that work at scale.

@@ -2,7 +2,7 @@ import { experiences, education, certifications } from "@/app/data";
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-20 md:py-28 px-6 md:px-16 max-w-[1100px] mx-auto fade-in">
+    <section id="experience" className="py-10 md:py-14 px-6 md:px-16 max-w-[1100px] mx-auto fade-in">
 
       {/* Experience */}
       <p className="section-label">Experience</p>

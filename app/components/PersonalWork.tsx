@@ -2,7 +2,7 @@ import { personalVideos } from "@/app/data";
 
 export default function PersonalWork() {
   return (
-    <section id="personal" className="py-20 md:py-28 px-6 md:px-16 max-w-[1100px] mx-auto fade-in">
+    <section id="personal" className="py-10 md:py-14 px-6 md:px-16 max-w-[1100px] mx-auto fade-in">
       <p className="section-label">Self-initiated</p>
       <h2
         className="font-syne font-black tracking-tight mb-4"

@@ -100,7 +100,7 @@ export const projects: Project[] = [
     name: "Guess The Word — Multiplayer Desktop Game",
     role: "Developer — Desktop Application",
     tags: ["C#", "TCP Protocol"],
-    url: null,
+    url: "https://github.com/ZyadTarek/Guess-The-Word-Game",
   },
   {
     num: "15",
