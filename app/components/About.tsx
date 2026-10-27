@@ -62,7 +62,6 @@ export default function About() {
         <div className="flex flex-col gap-3 md:gap-4">
           {[
             { label: "Email", value: "alaa.s.elnily@gmail.com", href: "mailto:alaa.s.elnily@gmail.com", isAccent: false },
-            { label: "Phone", value: "+20 (0) 106 451 4666", href: "tel:+201064514666", isAccent: false },
             { label: "Location", value: "Alexandria, Egypt - Open to Remote & Relocation", href: null, isAccent: false },
             { label: "Specialization", value: "React / Next.js Frontend", href: null, isAccent: false },
             { label: "Languages", value: "Arabic (Native) · English (Fluent) · French (Basic) · Dutch (Basic)", href: null, isAccent: false },
